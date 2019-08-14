@@ -1,6 +1,4 @@
 import re
-import random
-import json
 import psutil
 from flask import Flask, jsonify, Response
 
