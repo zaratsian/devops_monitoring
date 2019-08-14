@@ -30,7 +30,7 @@ scrape_configs:
     
     gce_sd_configs:
       - zone: us-central1-a
-        project: zproject201807
+        project: dzgcp1
     
     relabel_configs:
       - source_labels: [__meta_gce_public_ip]
